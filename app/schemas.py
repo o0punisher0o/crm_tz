@@ -2,6 +2,16 @@ from pydantic import BaseModel
 from typing import Optional
 
 
+class OperatorOut(BaseModel):
+    id: int
+    name: str
+    active: bool
+    load_limit: int
+
+    class Config:
+        orm_mode = True
+
+
 class OperatorCreate(BaseModel):
     name: str
     active: bool = True
