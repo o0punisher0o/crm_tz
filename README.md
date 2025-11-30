@@ -13,10 +13,14 @@
 ## Запуск проекта
 
 1. Установить зависимости:
+```bash
 pip install -r requirements.txt
+```
 
 2. Запустить сервер:
+```bash
 uvicorn app.main:app --reload
+```
 
 3. API будет доступно по адресу:
 http://localhost:8000
