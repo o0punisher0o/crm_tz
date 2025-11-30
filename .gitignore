@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+venv/
+env/
+.virtualenv/
+
+# SQLite database
+*.sqlite3
+*.db
+crm.db
+
+# FastAPI / Uvicorn
+*.pid
+
+# Env files
+.env
+.env.*
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+*.iml
+
+# Migrations (если появятся позже)
+alembic.ini
+alembic/
+migrations/
+
+# Cache / build
+dist/
+build/
+*.tmp
+*.cache/
+.cache/
+pip-wheel-metadata/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python typing cache
+.pytype/
+.mypy_cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Tests
+.pytest_cache/
+
+test_main.http
